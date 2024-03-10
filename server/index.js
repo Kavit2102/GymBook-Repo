@@ -20,7 +20,7 @@ app.use(express.json());
 
 //load routes
 app.use('/', (req, res) => {
-  res.json({ "messaage": "backend" });
+  res.json("backend");
 })
 
 app.use("/api/gymbook", userRoutes);
