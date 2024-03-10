@@ -19,6 +19,9 @@ app.use(cors({
 app.use(express.json());
 
 //load routes
+app.use('/', (req, res) => {
+  res.render("backend")
+})
 app.use("/api/gymbook", userRoutes);
 
 // /**
