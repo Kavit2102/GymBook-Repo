@@ -1,0 +1,28 @@
+.view-trainers{
+    display: flex;
+
+    .trainersContainer{
+        flex: 6;
+
+        h3{
+            margin: 20px 0px 0px 20px ;
+            color:blue;
+        }
+        
+        .table{
+            background-color: #F3F9FB;
+            max-width: 95%;
+            margin-left: 35px;
+        }
+
+        .btn{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+
+}

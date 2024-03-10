@@ -1,0 +1,18 @@
+.view-feedbacks{
+    display: flex;
+    .feedbacksContainer{
+        flex: 6;
+
+        h3{
+            margin: 20px 0px 0px 20px ;
+            color:blue;
+        }
+
+        .table{
+            background-color: #F3F9FB;
+            max-width: 95%;
+            margin-left: 35px;
+        }
+
+    }
+}

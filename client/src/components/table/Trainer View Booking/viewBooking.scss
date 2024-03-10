@@ -1,0 +1,72 @@
+.view-booking{
+    display: flex;
+    .bookingContainer{
+        flex: 6;
+
+        h3{
+            margin: 20px 0px 0px 20px ;
+            color:blue;
+        }
+        
+        .table{
+            background-color: #F3F9FB;
+            max-width: 95%;
+            margin-left: 35px;
+        }
+
+        .btn-Y{
+            background-color: yellowgreen;
+            color: white;
+            border: none;
+            margin-left: 5px;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn-G{
+            background-color: #50C878;
+            color: white;
+            border: none;
+            margin-left: 5px;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}
+
+.content h3{
+    margin: 5px 0px 0px 5px ;
+    color:blue;
+}
+
+.modal {
+    .btn-S{
+        background-color: #50C878;
+        color: white;
+        border: none;
+        margin-left: 5px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn-R{
+        background-color: red;
+        color: white;
+        border: none;
+        margin-left: 5px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+
+#popup-2, #popup-4{
+    border-radius: 10px !important;
+    background-color:#F3F9FB !important;
+}
+
+
+

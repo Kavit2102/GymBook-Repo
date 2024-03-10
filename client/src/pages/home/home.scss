@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .listContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0);
+      box-shadow: 2px 4px 10px 5px rgba(201, 201, 201);
+      padding: 20px;
+      margin: 20px;
+      height: 89vh;
+
+      .listTitle h1{
+        font-size: 80px;
+        text-align: center;
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.feebackform {
+  display: flex;
+
+  .formContainer {
+    flex: 6;
+    .auth-body {
+      padding: 2rem 0 0 18rem;
+      form select {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.input-label {
+  color: black;
+}

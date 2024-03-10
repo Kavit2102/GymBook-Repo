@@ -1,0 +1,20 @@
+.addclassform {
+    display: flex;
+  
+    .formContainer {
+      flex: 6;
+
+      h3{
+        margin: 20px 0px 0px 20px ;
+        color:blue;
+      }
+
+      .auth-body{
+        padding: 5rem 0 0 26rem;
+        form select{
+            width: 100%;
+        }
+      }
+      }
+  }
+  

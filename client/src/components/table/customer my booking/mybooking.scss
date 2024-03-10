@@ -1,0 +1,33 @@
+.mybooking{
+    display: flex;
+    .mybookingContainer{
+        flex: 6;
+
+        h3{
+            margin: 20px 0px 0px 20px ;
+            color:blue;
+        }
+
+        .table{
+            background-color: #F3F9FB;
+            max-width: 95%;
+            margin-left: 35px;
+        }
+
+        .btn-R{
+            background-color: red;
+            color: white;
+            border: none;
+            margin-left: 5px;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+    }
+}
+
+#popup-2{
+    border-radius: 10px !important;
+    background-color:#F3F9FB !important;
+}

@@ -1,0 +1,125 @@
+.form {
+    padding: 5rem;
+    padding: 5rem 0 0 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+  }
+  
+  .auth-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  
+  .auth-header-title {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 60px;
+    padding-left: 23%;
+    color: #212529;
+  }
+  .auth-header-subtitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .auth-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+  }
+
+  .input-field {
+    position: relative;
+    width: 60%; 
+    margin-bottom: 15px;
+  }
+  
+  .input-label {
+    display: flex;
+    color: black;
+  }
+
+  .input-control {
+    display: block;
+    width: 95%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #8e8e97;
+    padding: 0.25rem 0.67rem;
+    outline: none;
+    transition: border 0.1s ease-in, box-shadow 0.15s ease-in;
+  }
+  .input-control::placeholder {
+    transition: transform 0.1s ease-in;
+  }
+  .input-control:focus::placeholder {
+    transform: translateX(5px);
+  }
+  .input-control:focus,
+  .input-control:valid {
+    border: 2px solid #5960e6;
+  }
+
+  .btn-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.35rem 1.24rem;
+    border-radius: 5px;
+    border: 1px solid #5960e6;
+    background: #5960e6;
+    color: #ffffff;
+    width: 60%;
+  }
+
+  .forgotPassButton{
+    text-decoration: underline;
+    color: #5960e6;
+    cursor: pointer;
+    position: relative;
+    margin-top: 5px;
+  }
+
+
+.content{
+  h3{
+    margin: 5px 0px 0px 5px ;
+    color:blue;
+  }
+
+  .input-field{
+    margin-left: 10px;
+  }
+}
+
+.modal {
+    .btn-S{
+        background-color: #50C878;
+        color: white;
+        border: none;
+        margin-left: 5px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn-R{
+        background-color: red;
+        color: white;
+        border: none;
+        margin-left: 5px;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
