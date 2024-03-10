@@ -11,8 +11,8 @@ const DATABASE_URL = process.env.DATABASE_URL;
 
 //cors policy
 app.use(cors({
-  "origin": "https://gym-book-api.vercel.app/",
-  "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+  "origin": ["https://gym-book-api.vercel.app/"],
+  "methods": ["GET,HEAD,PUT,PATCH,POST,DELETE"],
   "preflightContinue": false,
   "optionsSuccessStatus": 204
 }));
